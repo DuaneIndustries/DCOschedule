@@ -36,7 +36,10 @@ start_dates = pd.date_range(start='2024-02-16', end='2024-04-26', freq='W-MON')
 # Create a DataFrame with start dates of each week
 week_markers = pd.DataFrame({'Start Date': start_dates, 'Week_Start': True})
 
-
+# Calculate the start and end dates of the current week
+today = datetime.today()
+start_of_week = today - timedelta(days=today.weekday())
+end_of_week = start_of_week + timedelta(days=6)
 
 app = dash.Dash(__name__)
 server=app.server
@@ -53,8 +56,8 @@ app.layout = html.Div([
                              id='section-dropdown'),
         dcc.DatePickerRange(
             id='date-picker-range',
-            start_date=dff['Start Date'].min(),
-            end_date=dff['Start Date'].max(),
+            start_date=start_of_week,
+            end_date=end_of_week,
             style={'display': 'inline-block', 'float': 'right'}
         ),
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
