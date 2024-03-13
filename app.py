@@ -46,7 +46,7 @@ app.layout = html.Div([
     html.H1('Duane & Company Schedule', style={'color': 'green', 'fontSize': 40,'textAlign': 'center'}),
     html.Div(children=[
         dcc.Dropdown([x for x in sorted(dff['Project'].unique())],
-                              value=['White'],
+                              value=['White','Stack Street','Cadillac','Coffee Holding','Rival'],
                              clearable=False,
                              multi=True,
                              style={'width':'65%'},
