@@ -61,7 +61,7 @@ app.layout = html.Div([
             style={'display': 'inline-block', 'float': 'right'}
         ),
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
-                     value=['Sebastian','Big Joe','JRD'],
+                     value=['Sebastian','Big Joe','JRD','All','Adam','Sub'],
                      clearable=False,
                      multi=True,
                      style={'width':'65%', 'margin-top': '10px' },
