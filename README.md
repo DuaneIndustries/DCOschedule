@@ -1,1 +1,1 @@
-[https://duanecompanyschedule.onrender.com/](view gantt Here)
+[https://duanecompanyschedule.onrender.com](view gantt Here)
