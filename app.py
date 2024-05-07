@@ -12,7 +12,7 @@ import io
 import requests
 from datetime import datetime, timedelta
 
-url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2024_Calendar_v10.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2024_Calendar_v11.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
