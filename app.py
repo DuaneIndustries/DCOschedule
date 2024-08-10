@@ -12,7 +12,7 @@ import io
 import requests
 from datetime import datetime, timedelta
 
-url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2024_Calendar_v12.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2024_Calendar_v13.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
@@ -31,7 +31,7 @@ df = df.sort_values(by='Start Date',ascending=False)
 dff = df
 
 # Determine the start of each week
-start_dates = pd.date_range(start='2024-02-16', end='2024-04-26', freq='W-MON')
+start_dates = pd.date_range(start='2024-08-12', end='2024-12-29', freq='W-MON')
 
 # Create a DataFrame with start dates of each week
 week_markers = pd.DataFrame({'Start Date': start_dates, 'Week_Start': True})
