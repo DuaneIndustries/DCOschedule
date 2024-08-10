@@ -49,7 +49,7 @@ app.layout = html.Div([
     html.H1('Duane & Company Schedule', style={'color': 'green', 'fontSize': 40,'textAlign': 'center'}),
     html.Div(children=[
         dcc.Dropdown([x for x in sorted(dff['Project'].unique())],
-                              value=['White','Stack Street','Cadillac','Coffee Holding','Rival'],
+                              value=[],
                              clearable=False,
                              multi=True,
                              style={'width':'65%'},
@@ -57,11 +57,11 @@ app.layout = html.Div([
         dcc.DatePickerRange(
             id='date-picker-range',
             start_date="2024-08-05",
-            end_date="2024-09-01",
+            end_date="2024-09-29",
             style={'display': 'inline-block', 'float': 'right'}
         ),
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
-                     value=['Sebastian','Big Joe','JRD','All','Adam','Sub'],
+                     value=[],
                      clearable=False,
                      multi=True,
                      style={'width':'65%', 'margin-top': '10px' },
