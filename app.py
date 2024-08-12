@@ -182,7 +182,7 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
             hovermode="closest",
             xaxis_title="Schedule",
             yaxis_title="Task",
-            showlegend=False,
+            showlegend=True,
             title_font_size=24,
             font_color='black',
             hoverlabel=dict(
