@@ -50,6 +50,7 @@ app.layout = html.Div([
     html.Div(children=[
         dcc.Dropdown([x for x in sorted(dff['Project'].unique())],
                               value=[],
+                             placeholder = "Select a project",
                              clearable=False,
                              multi=True,
                              style={'width':'65%'},
@@ -62,6 +63,7 @@ app.layout = html.Div([
         ),
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
                      value=[],
+                     placeholder = "Select a Crewmember",
                      clearable=False,
                      multi=True,
                      style={'width':'65%', 'margin-top': '10px' },
