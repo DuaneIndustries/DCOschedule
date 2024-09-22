@@ -1,0 +1,64 @@
+Project,Task,Crew,Start Date,Duration,End Date,Day Completed,Completion PCT
+Cadillac,Steel Support Frame Fabrication,Big Joe,8/26/24,5,8/29/24,0,0.00%
+Cadillac,Finish Inspection and Repairs,Jerry,8/19/24,10,8/29/24,0,0.00%
+Ellis Coffee,Repair and Maintenance,Big Joe,8/22/24,3,8/24/24,0,0.00%
+Cadillac,Ship to Cadillac,Subcontractors,8/29/24,2,8/31/24,0,0.00%
+Rival,Start up GB system,Sebastian,8/29/24,2,8/30/24,0,0.00%
+White,afterburner - Fabrication,Subcontractors,8/26/24,30,9/16/24,0,0.00%
+White,afterburner - Site Prep + Frame Install,Sebastian,9/16/24,10,9/25/24,0,0.00%
+White,afterburner - Rigging + Install + Utilities,Sebastian,9/25/24,5,9/27/24,0,0.00%
+Cadillac,Install Frames @ Cadillac,Jerry,9/9/24,5,9/13/24,0,0.00%
+Rival,Panel Fab,Sebastian,9/23/24,1,9/24/24,0,0.00%
+Rival,electrical,Sebastian,9/24/24,3,9/27/24,,
+Rival,Complete Rival Install,Aleks,8/19/24,10,8/30/24,0,0.00%
+Cadillac,Steel Support Frame Fabrication,Big Joe,8/19/24,3,8/21/24,0,0.00%
+White,Flavor Batch System,Sebastian,8/26/24,5,9/13/24,0,0.00%
+Westchester Recycling,Review + Update Electrical Drawings,Sebastian,11/4/24,2,11/6/24,0,0.00%
+Westchester Recycling,backend programming,Sebastian,11/6/24,6,11/12/24,0,0.00%
+Westchester Recycling,front end programming,Sebastian,11/12/24,6,11/18/24,0,0.00%
+Westchester Recycling,remove existing actuators,Sebastian,11/18/24,4,11/22/24,0,0.00%
+Westchester Recycling,install new actuators,Sebastian,11/22/24,4,11/26/24,0,0.00%
+Westchester Recycling,run electrical,Sebastian,11/26/24,7,12/3/24,0,0.00%
+Westchester Recycling,fabricate control panels,Sebastian,12/3/24,4,12/7/24,0,0.00%
+Westchester Recycling,install controls and make terminations,Sebastian,12/7/24,4,12/11/24,0,0.00%
+Westchester Recycling,upload and start up,Sebastian,12/11/24,3,12/14/24,0,0.00%
+Colonial,Green System - Programming and Engineering,Sebastian,10/1/24,10,10/14/24,0,0.00%
+Colonial,Green System - Installation,JRD,10/14/24,35,11/22/24,0,0.00%
+Colonial,Green System - Installation,Sebastian,10/14/24,35,11/22/24,0,0.00%
+Colonial,Green System Start up and Debug,Sebastian,11/25/24,2,11/26/24,0,0.00%
+Cadillac,Finalize Controls Vendor,Duane,8/26/24,5,8/30/24,0,0.00%
+Cadillac,Site Prep,Jerry,9/4/24,1,9/5/24,0,0.00%
+Cadillac,Utilities Prep,Jerry,9/6/24,2,9/8/24,0,0.00%
+Cadillac,Roof Penetrations,Subcontractors,9/12/24,1,9/13/24,0,0.00%
+Cadillac,Mobilization,Jerry,9/3/24,2,9/4/24,0,0.00%
+Cadillac,Engineer Controls,Sebastian,9/9/24,5,9/13/24,0,0.00%
+Cadillac,Fabricate Panel (if Needed),Aleks,9/9/24,5,9/13/24,0,0.00%
+Cadillac,Steel Support Frame Installation,Jerry,9/9/24,5,9/13/24,0,0.00%
+Cadillac,Roaster Installation - Locate Body,Jerry,9/16/24,1,9/17/24,0,0.00%
+Cadillac,Roaster Installation - Install Recirculating system,Jerry,9/17/24,5,9/20/24,0,0.00%
+Cadillac,Roaster Installation - Install Burner and Gas train,Jerry,9/23/24,3,9/25/24,0,0.00%
+Cadillac,Install cooler stoner system,Jerry,9/26/24,5,9/29/24,0,0.00%
+Cadillac,Run both exhaust pipes ,Jerry,9/30/24,3,10/2/24,0,0.00%
+Cadillac,Purchase + install jet caps,Jerry,10/3/24,2,10/4/24,0,0.00%
+Cadillac,Run Pneumatic lines,Aleks,9/30/24,5,10/4/24,0,0.00%
+Cadillac,run power wiring,Aleks,10/7/24,5,10/12/24,0,0.00%
+Cadillac,run control wiring,Aleks,10/14/24,5,10/18/24,0,0.00%
+Cadillac,start up and debug,Aleks,10/21/24,5,10/25/24,0,0.00%
+Stack Street,Final Engineering and Procurement,Sebastian,9/23/24,5,9/28/24,0,0.00%
+Stack Street,Approvals,Stack Street,9/27/24,1,9/28/24,0,0.00%
+Holiday,Rosh Hoshanah - Closed No Work,Duane,10/3/24,2,10/5/24,0,0.00%
+Stack Street,"Site Prep - Roofer, Framer, Sheet Rock",Subcontractors,10/7/24,3,10/10/24,0,0.00%
+Stack Street,Mobilization,Big Joe,10/13/24,1,10/14/24,0,0.00%
+Holiday,Yom Kippur - Closed No Work,Duane,10/11/24,2,10/13/24,0,0.00%
+Stack Street,Afterburner Installation,Big Joe,10/14/24,4,10/18/24,0,0.00%
+Stack Street,Overflow + Green Bean Modifications,Aleks,10/21/24,4,10/25/24,0,0.00%
+Stack Street,Load out Truck #1 ( Roaster Body + Recirculating System),Big Joe,10/26/24,1,10/27/24,0,0.00%
+Stack Street,Unload Truck #1 ( Roaster Body + Recirculating System),Big Joe,10/27/24,1,10/28/24,0,0.00%
+Stack Street,Installation (Roaster Body + Recirculating System + Modifications),Big Joe,10/28/24,4,11/1/24,0,0.00%
+Stack Street,Load out Truck #2 ( Cooler Stoner System),Big Joe,11/2/24,1,11/3/24,0,0.00%
+Stack Street,Unload Truck #2 ( Roaster Body + Recirculating System),Big Joe,11/3/24,1,11/4/24,0,0.00%
+Stack Street,Installation (Cooler Stoner System),Big Joe,11/4/24,4,11/8/24,0,0.00%
+Stack Street,Electric and plumbing Tie-ins + Controls,Aleks,11/11/24,5,11/16/24,0,0.00%
+Stack Street,Roaster Start-up,Sebastian,11/20/24,5,11/27/24,0,0.00%
+Holiday,Thanksgiving,Duane,11/28/24,2,11/30/24,0,0.00%
+Stack Street,K Cup Machine Install,Duane,12/1/24,10,12/11/24,0,0.00%
