@@ -12,7 +12,7 @@ import io
 import requests
 from datetime import datetime, timedelta
 
-url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2024_Calendar_v20.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2024_Calendar_v21.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
@@ -170,7 +170,7 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
             x_start="Start Date",
             x_end="End Date",
             y="Project",
-            color='Task',
+            color='Crew',
             hover_name='Task',
             hover_data={'Crew':True,'Project':True,'Pattern':False,'Completion PCT':True,'Task':False},
             category_orders={"Project": ["White", "Stack Street", "Cadillac", "Tierra Farm"]},
