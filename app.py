@@ -58,7 +58,7 @@ app.layout = html.Div([
         dcc.DatePickerRange(
             id='date-picker-range',
             start_date="2024-09-09",
-            end_date="2024-12-31",
+            end_date="2025-3-31",
             style={'display': 'inline-block', 'float': 'right'}
         ),
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
