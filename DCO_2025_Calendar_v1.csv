@@ -1,0 +1,27 @@
+Project,Task,Crew,Start Date,Duration,End Date,Day Completed,Completion PCT
+Coffee Holding,Project Meeting,JRD,1/20/25,1,1/21/25,0,0.00%
+Coffee Holding,Project Meeting,Sebastian,1/20/25,1,1/21/25,0,0.00%
+White,afterburner - Rigging + Install + Utilities,Big Joe,2/10/25,10,2/20/25,0,0.00%
+White,Flavor Batch System - Panel Fab,Aleks,1/27/25,7,2/3/25,0,0.00%
+White,Flavor Batch System - Start up,Aleks,2/17/25,5,2/22/25,,
+Westchester Recycling,Installation,Big Joe,1/13/25,5,1/18/25,0,0.00%
+Westchester Recycling,Installation,Sebastian,1/13/25,14,1/27/25,0,0.00%
+Westchester Recycling,Installation,Aleks,1/13/25,14,1/27/25,0,0.00%
+Westchester Recycling,Installation,Gregory,1/13/25,14,1/27/25,0,0.00%
+Colonial,Back end Programming,Sebastian,1/27/25,14,2/10/25,0,0.00%
+Colonial,front end programming,Sebastian,2/10/25,14,2/24/25,,
+Colonial,Green System - Installation - Mobilization,Jerry,2/17/25,1,2/18/25,0,0.00%
+Colonial,Green System - Project Mgmt,JRD,2/17/25,14,3/3/25,.,0.00%
+Colonial,Green System - Project Mgmt,Sebastian,2/24/25,5,3/1/25,0,0.00%
+Colonial,Green System - Installation - Frames,Jerry,2/18/25,5,2/23/25,0,0.00%
+Colonial,Green System - Installation - Frames,JRD,3/3/25,5,3/8/25,0,0.00%
+Colonial,Green System - Installation - Dump Platform,Jerry,2/18/25,10,2/28/25,0,0.00%
+Colonial,Green System - Installation - bucket elevator,Jerry,2/28/25,5,3/5/25,0,0.00%
+Colonial,Green System - Installation - green bean cleaner,Jerry,1/18/25,5,1/23/25,,
+Colonial,Green System - Installation - Silos + Load Cells,Jerry,2/23/25,21,3/16/25,0,0.00%
+Colonial,Green System - Installation - Cablevey,Jerry,2/18/25,35,3/25/25,0,0.00%
+Colonial,Green System - Panel Fab,Aleks,2/3/25,14,2/17/25,0,0.00%
+Colonial,Green System - Wiring and Terminations,Aleks,3/25/25,10,4/4/25,0,0.00%
+Colonial,Green System - Wiring and Terminations,Sebastian,3/25/25,10,4/4/25,0,0.00%
+Colonial,Green System Start up and Debug,Sebastian,4/4/25,2,4/6/25,0,0.00%
+Stack Street,Roaster Installation,Big Joe,1/18/25,21,2/8/25,0,0.00%
