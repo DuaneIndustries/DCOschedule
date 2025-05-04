@@ -12,7 +12,7 @@ import io
 import requests
 from datetime import datetime, timedelta
 
-url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2025_Calendar_v2.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/DCOschedule/main/DCO_2025_Calendar_v3.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
@@ -31,7 +31,7 @@ df = df.sort_values(by='Start Date',ascending=False)
 dff = df
 
 # Determine the start of each week
-start_dates = pd.date_range(start='2024-08-12', end='2025-1-31', freq='W-MON')
+start_dates = pd.date_range(start='2025-4-28', end='2025-10-31', freq='W-MON')
 
 # Create a DataFrame with start dates of each week
 week_markers = pd.DataFrame({'Start Date': start_dates, 'Week_Start': True})
@@ -57,8 +57,8 @@ app.layout = html.Div([
                              id='section-dropdown'),
         dcc.DatePickerRange(
             id='date-picker-range',
-            start_date="2025-1-1",
-            end_date="2025-4-30",
+            start_date="2025-5-1",
+            end_date="2025-10-30",
             style={'display': 'inline-block', 'float': 'right'}
         ),
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
